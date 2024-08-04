@@ -38,24 +38,28 @@ export const Feedback = () => {
             <div>
               <div className="flex items-center">
                 <img
-                  className="w-6 h-6 my-2 rounded-full"
+                  className="size-8 my-2 rounded-full"
                   src={item.img}
                   alt={item.name}
                 ></img>
-                <span className="ml-1 text-[.75em]">{item.name}</span>
+                <span className="ml-2 text-[.75em] lg:text-[1em]">
+                  {item.name}
+                </span>
               </div>
               <div className="flex mb-1 ">
                 {[...Array(5)].map((_, i) => {
                   return (
                     <FaStar
                       key={i}
-                      className={i < item.rating ? "fill-yellow-400" : ""}
-                      size={12}
+                      className={
+                        i < item.rating ? "fill-yellow-400 ml-1" : "ml-1"
+                      }
+                      size={16}
                     />
                   );
                 })}
               </div>
-              <div className="mb-2 text-[.5em] font-extralight text-gray-400">
+              <div className="mb-2 text-[.5em] font-extralight text-gray-400 md:text-[.75em]">
                 {item.comment}
               </div>
               <hr className="border-gray-800"></hr>

@@ -5,14 +5,14 @@ import { SlBell } from "react-icons/sl";
 export const PrimarySearchAppBar = () => {
   return (
     <header className="antialiased absolute top-0 w-screen">
-      <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
+      <nav className="bg-slate-900 border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
         <div className="flex flex-wrap justify-between items-center">
           <div className="flex justify-start items-center">
-            <form action="#" method="GET" className="hidden lg:block lg:pl-2">
+            <form action="#" method="GET" className="lg:block">
               <label htmlFor="topbar-search" className="sr-only">
                 Search
               </label>
-              <div className="relative mt-1 mb-4 ml-24 lg:w-96">
+              <div className="relative sm:mt-1 sm:mb-4 ml-16 sm:ml-24 lg:w-96">
                 <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                   <svg
                     className="w-4 h-4 text-gray-500 dark:text-gray-200"
@@ -35,7 +35,7 @@ export const PrimarySearchAppBar = () => {
                   type="text"
                   name="email"
                   id="topbar-search"
-                  className="bg-gray-50 h-9 w-72 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block pl-9 p-2.5 dark:bg-zinc-800   dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                  className="bg-gray-800 h-9 sm:w-72 w-48 border border-gray-700 text-gray-400 sm:text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block pl-9 p-2.5 dark:bg-zinc-800   dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
                   placeholder="Search"
                 ></input>
               </div>

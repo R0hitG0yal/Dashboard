@@ -19,7 +19,7 @@ export default function Sidebar() {
           <li className="px-3">
             <a
               href="#"
-              className="flex items-center pl-2 py-4 mb-6 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              className="flex items-center pl-2 py-4 mb-6 text-gray-900 rounded-lg dark:text-white hover:bg-gray-700 dark:hover:bg-gray-700 group"
             >
               <div className="flex flex-wrap">
                 <div className="size-4 sm:size-6 border border-indigo-500 bg-indigo-500 rounded-full rounded-bl-none"></div>
@@ -33,7 +33,7 @@ export default function Sidebar() {
           <li onClick={() => setActive(0)}>
             <a
               href="#"
-              className="flex my-6 items-center text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              className="flex my-6 items-center text-gray-900 rounded-lg dark:text-white hover:bg-gray-700 dark:hover:bg-gray-700 group"
             >
               <span className="flex-1 whitespace-nowrap">
                 {active == 0 ? (
@@ -48,7 +48,7 @@ export default function Sidebar() {
           <li onClick={() => setActive(1)}>
             <a
               href="#"
-              className="flex my-6 items-center text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              className="flex my-6 items-center text-gray-900 rounded-lg dark:text-white hover:bg-gray-700 dark:hover:bg-gray-700 group"
             >
               <span className="flex-1 whitespace-nowrap">
                 {active == 1 ? (
@@ -62,7 +62,7 @@ export default function Sidebar() {
           <li onClick={() => setActive(2)}>
             <a
               href="#"
-              className="flex my-6 items-center text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              className="flex my-6 items-center text-gray-900 rounded-lg dark:text-white hover:bg-gray-700 dark:hover:bg-gray-700 group"
             >
               <span className="flex-1 ms-1 whitespace-nowrap">
                 {active == 2 ? (
@@ -76,7 +76,7 @@ export default function Sidebar() {
           <li onClick={() => setActive(3)}>
             <a
               href="#"
-              className="flex my-6 items-center text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              className="flex my-6 items-center text-gray-900 rounded-lg dark:text-white hover:bg-gray-700 dark:hover:bg-gray-700 group"
             >
               <span className="flex-1 ms-1 whitespace-nowrap">
                 {active == 3 ? (
@@ -90,7 +90,7 @@ export default function Sidebar() {
           <li onClick={() => setActive(4)}>
             <a
               href="#"
-              className="flex my-6 items-center text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
+              className="flex my-6 items-center text-gray-900 rounded-lg dark:text-white hover:bg-gray-700 dark:hover:bg-gray-700 group"
             >
               <span className="flex-1 ms-1  whitespace-nowrap">
                 {active == 4 ? (

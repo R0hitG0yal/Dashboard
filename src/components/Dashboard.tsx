@@ -13,7 +13,7 @@ export const Dashboard = () => {
       <h1 className="mx-4 pt-6 pb-2 font-bold text-2xl  ">Dashboard</h1>
       <div className="p-4 grid sm:grid-cols-6 gap-4">
         <div className="col-span-4 grid grid-cols-4 gap-3 w-full h-full">
-          <DataDisplay/>
+          <DataDisplay />
         </div>
         <div className="bg-slate-900 col-span-4 sm:col-span-2 w-full h-28 sm:h-full grid grid-cols-2 p-3 rounded-lg overflow-hidden">
           <div className="flex flex-col justify-evenly">
@@ -23,7 +23,7 @@ export const Dashboard = () => {
             <div className="font-extrabold py-1 lg:text-[1.8em]  md:text-[1.3em] sm:text-[1em] text-[2em] ">
               $ 6759.25
             </div>
-            <div className="flex items-center text-[.5em]">
+            <div className="flex items-center text-[.55em] md:text-[.75em]">
               <IoTriangle className="fill-green-600" />
               <div className="px-1 text-green-600">3%</div>
             </div>

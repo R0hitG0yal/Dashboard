@@ -71,7 +71,7 @@ export const RecentOrders = () => {
         <tbody>
           {data.map((order) => {
             return (
-              <tr className="text-gray-200 text-[.55em] relative border-b-2 border-slate-600 border-opacity-25 h-12 text-sm font-light">
+              <tr className="text-gray-200 text-[.7rem] md:text-[.85rem] lg:text-[1rem] relative border-b-2 border-slate-600 border-opacity-25 h-12 text-sm font-light">
                 <td className="flex">
                   <img
                     className="absolute top-2 left-3 h-8 w-8 aspect-auto rounded-full"

@@ -22,10 +22,10 @@ export default function Sidebar() {
               className="flex items-center pl-2 py-4 mb-6 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
             >
               <div className="flex flex-wrap">
-                <div className="size-4 border border-indigo-500 bg-indigo-500 rounded-full rounded-bl-none"></div>
-                <div className="size-4 border border-indigo-500 bg-indigo-500 rounded-full rounded-tl-none "></div>
-                <div className="size-4 border border-indigo-500 bg-indigo-500 rounded-full rounded-br-none "></div>
-                <div className="size-4 border border-indigo-500 bg-indigo-500 rounded-full rounded-tr-none "></div>
+                <div className="size-4 sm:size-6 border border-indigo-500 bg-indigo-500 rounded-full rounded-bl-none"></div>
+                <div className="size-4 sm:size-6 border border-indigo-500 bg-indigo-500 rounded-full rounded-tl-none "></div>
+                <div className="size-4 sm:size-6 border border-indigo-500 bg-indigo-500 rounded-full rounded-br-none "></div>
+                <div className="size-4 sm:size-6 border border-indigo-500 bg-indigo-500 rounded-full rounded-tr-none "></div>
               </div>
             </a>
           </li>
